@@ -1,0 +1,4 @@
+
+
+    x_pos = ((init_vel * math.cos((math.radians(angle)))) * time_passed)
+    y_pos = (height + init_vel * math.sin(math.radians(angle)) * time_passed - 0.5 * GRAVITY * time_passed ** 2)
